@@ -5,9 +5,10 @@
  *
  * Approach:
  * - Use left and right pointers
- * Always swap symmetric elements
- * Shrink the window after each swap
- * Stop when pointers cross
+ * Lowercasing characters → avoids case mismatch
+ * Skipping non-letters using continue
+
+Early return on mismatch → optimal
  *
  * Time: O(n)
  * Space: O(1)
